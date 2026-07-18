@@ -1,0 +1,255 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&amp;display=swap');
+
+      .bg { fill: #0d0b0a; }
+
+      .line-art {
+        stroke: #f0ede6;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill: none;
+      }
+
+      .line-accent {
+        stroke: #b4544a;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill: none;
+      }
+
+      .text-mon {
+        font-family: 'JetBrains Mono', 'DM Mono', monospace;
+        font-size: 15px;
+        fill: #f0ede6;
+      }
+
+      .text-accent {
+        fill: #b4544a;
+        font-weight: 700;
+      }
+
+      .text-dim {
+        fill: #f0ede6;
+        opacity: 0.6;
+      }
+
+      /* --- ANIMATIONS (12s total loop) --- */
+
+      /* 1. Monitor Frame Draw-In */
+      .draw-monitor {
+        stroke-dasharray: 1400;
+        stroke-dashoffset: 1400;
+        animation: drawLine 12s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+
+      .draw-stand {
+        stroke-dasharray: 400;
+        stroke-dashoffset: 400;
+        animation: drawStand 12s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+
+      /* 2. Keyboard & Mouse Fade In */
+      .fade-peripherals {
+        opacity: 0;
+        animation: fadeInPeripherals 12s ease-in-out infinite;
+      }
+
+      /* 3. Staggered Keypresses */
+      .key-1 { animation: keyPress1 12s infinite; }
+      .key-2 { animation: keyPress2 12s infinite; }
+      .key-3 { animation: keyPress3 12s infinite; }
+      .key-4 { animation: keyPress4 12s infinite; }
+
+      /* 4. Typewriter Terminal Text Reveals */
+      .type-line1 { clip-path: url(#clip-l1); animation: revealL1 12s infinite; }
+      .type-line2 { clip-path: url(#clip-l2); animation: revealL2 12s infinite; }
+      .type-line3 { clip-path: url(#clip-l3); animation: revealL3 12s infinite; }
+      .type-line4 { clip-path: url(#clip-l4); animation: revealL4 12s infinite; }
+      .type-line5 { clip-path: url(#clip-l5); animation: revealL5 12s infinite; }
+
+      .screen-cursor {
+        animation: cursorBlink 0.8s infinite alternate, cursorMove 12s infinite;
+      }
+
+      /* --- KEYFRAMES --- */
+      @keyframes drawLine {
+        0% { stroke-dashoffset: 1400; }
+        15%, 88% { stroke-dashoffset: 0; }
+        96%, 100% { stroke-dashoffset: 1400; }
+      }
+
+      @keyframes drawStand {
+        0%, 8% { stroke-dashoffset: 400; }
+        22%, 88% { stroke-dashoffset: 0; }
+        96%, 100% { stroke-dashoffset: 400; }
+      }
+
+      @keyframes fadeInPeripherals {
+        0%, 15% { opacity: 0; transform: translateY(8px); }
+        25%, 88% { opacity: 1; transform: translateY(0); }
+        95%, 100% { opacity: 0; transform: translateY(8px); }
+      }
+
+      @keyframes keyPress1 {
+        0%, 28% { fill: none; transform: translateY(0); }
+        29%, 33% { fill: #b4544a; stroke: #b4544a; transform: translateY(2px); }
+        34%, 100% { fill: none; transform: translateY(0); }
+      }
+
+      @keyframes keyPress2 {
+        0%, 34% { fill: none; transform: translateY(0); }
+        35%, 39% { fill: #b4544a; stroke: #b4544a; transform: translateY(2px); }
+        40%, 100% { fill: none; transform: translateY(0); }
+      }
+
+      @keyframes keyPress3 {
+        0%, 41% { fill: none; transform: translateY(0); }
+        42%, 46% { fill: #b4544a; stroke: #b4544a; transform: translateY(2px); }
+        47%, 100% { fill: none; transform: translateY(0); }
+      }
+
+      @keyframes keyPress4 {
+        0%, 48% { fill: none; transform: translateY(0); }
+        49%, 53% { fill: #b4544a; stroke: #b4544a; transform: translateY(2px); }
+        54%, 100% { fill: none; transform: translateY(0); }
+      }
+
+      @keyframes revealL1 {
+        0%, 27% { width: 0px; }
+        34%, 88% { width: 450px; }
+        94%, 100% { width: 0px; }
+      }
+
+      @keyframes revealL2 {
+        0%, 35% { width: 0px; }
+        43%, 88% { width: 450px; }
+        94%, 100% { width: 0px; }
+      }
+
+      @keyframes revealL3 {
+        0%, 44% { width: 0px; }
+        52%, 88% { width: 450px; }
+        94%, 100% { width: 0px; }
+      }
+
+      @keyframes revealL4 {
+        0%, 53% { width: 0px; }
+        62%, 88% { width: 450px; }
+        94%, 100% { width: 0px; }
+      }
+
+      @keyframes revealL5 {
+        0%, 63% { width: 0px; }
+        72%, 88% { width: 450px; }
+        94%, 100% { width: 0px; }
+      }
+
+      @keyframes cursorBlink {
+        0% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+
+      @keyframes cursorMove {
+        0%, 27% { transform: translate(210px, 86px); }
+        34%, 35% { transform: translate(320px, 86px); }
+        43%, 44% { transform: translate(390px, 126px); }
+        52%, 53% { transform: translate(310px, 166px); }
+        62%, 63% { transform: translate(520px, 206px); }
+        72%, 88% { transform: translate(530px, 246px); }
+        94%, 100% { transform: translate(210px, 86px); }
+      }
+    </style>
+
+    <!-- Clips for Typewriter effect line by line -->
+    <clipPath id="clip-l1"><rect class="type-line1" x="190" y="70" width="0" height="30" /></clipPath>
+    <clipPath id="clip-l2"><rect class="type-line2" x="190" y="110" width="0" height="30" /></clipPath>
+    <clipPath id="clip-l3"><rect class="type-line3" x="190" y="150" width="0" height="30" /></clipPath>
+    <clipPath id="clip-l4"><rect class="type-line4" x="190" y="190" width="0" height="30" /></clipPath>
+    <clipPath id="clip-l5"><rect class="type-line5" x="190" y="230" width="0" height="30" /></clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="800" height="460" rx="10" />
+
+  <!-- ================= MONITOR SECTION ================= -->
+  <!-- Outer Monitor Bezel (Line Art Draw) -->
+  <rect class="line-art draw-monitor" x="160" y="30" width="480" height="280" rx="8" />
+
+  <!-- Inner Screen Boundary -->
+  <rect class="line-art draw-monitor" x="175" y="45" width="450" height="250" rx="4" stroke-opacity="0.4" />
+
+  <!-- Monitor Stand Base & Stem -->
+  <path class="line-art draw-stand" d="M 360 310 L 340 375 L 460 375 L 440 310 Z" />
+  <ellipse class="line-art draw-stand" cx="400" cy="377" rx="80" ry="8" />
+
+  <!-- Screen Top Bar buttons (line art detail) -->
+  <circle cx="195" cy="58" r="3" fill="#b4544a" />
+  <circle cx="207" cy="58" r="3" fill="#f0ede6" opacity="0.4" />
+  <circle cx="219" cy="58" r="3" fill="#f0ede6" opacity="0.4" />
+  <line x1="175" y1="70" x2="625" y2="70" stroke="#f0ede6" stroke-width="1" stroke-opacity="0.2" />
+
+  <!-- ================= SCREEN CONTENT ================= -->
+  <!-- Line 1 -->
+  <g clip-path="url(#clip-l1)">
+    <text x="195" y="98" class="text-mon"><tspan class="text-accent">&gt; </tspan>whoami</text>
+  </g>
+
+  <!-- Line 2 -->
+  <g clip-path="url(#clip-l2)">
+    <text x="215" y="128" class="text-mon" font-weight="700">Vishvjeet Tanwar</text>
+  </g>
+
+  <!-- Line 3 -->
+  <g clip-path="url(#clip-l3)">
+    <text x="195" y="168" class="text-mon"><tspan class="text-accent">&gt; </tspan>focus</text>
+  </g>
+
+  <!-- Line 4 -->
+  <g clip-path="url(#clip-l4)">
+    <text x="215" y="198" class="text-mon">Systems Architecture &amp; Minimalist Web Design</text>
+  </g>
+
+  <!-- Line 5 -->
+  <g clip-path="url(#clip-l5)">
+    <text x="195" y="238" class="text-mon"><tspan class="text-accent">&gt; </tspan>status: <tspan class="text-dim">Crafting high-performance digital tools...</tspan></text>
+  </g>
+
+  <!-- Active Cursor in Monitor -->
+  <rect class="screen-cursor" width="9" height="18" fill="#b4544a" rx="1" />
+
+
+  <!-- ================= KEYBOARD & MOUSE SECTION ================= -->
+  <g class="fade-peripherals">
+    <!-- Keyboard Body Outer -->
+    <rect class="line-art" x="200" y="380" width="310" height="60" rx="6" />
+
+    <!-- Keyboard Key Grid (Row 1) -->
+    <rect class="line-art key-1" x="215" y="390" width="18" height="14" rx="2" />
+    <rect class="line-art key-2" x="238" y="390" width="18" height="14" rx="2" />
+    <rect class="line-art" x="261" y="390" width="18" height="14" rx="2" />
+    <rect class="line-art key-3" x="284" y="390" width="18" height="14" rx="2" />
+    <rect class="line-art" x="307" y="390" width="18" height="14" rx="2" />
+    <rect class="line-art" x="330" y="390" width="18" height="14" rx="2" />
+    <rect class="line-art key-4" x="353" y="390" width="18" height="14" rx="2" />
+    <rect class="line-art" x="376" y="390" width="18" height="14" rx="2" />
+    <rect class="line-art" x="399" y="390" width="18" height="14" rx="2" />
+    <rect class="line-art" x="422" y="390" width="18" height="14" rx="2" />
+    <rect class="line-art" x="445" y="390" width="50" height="14" rx="2" />
+
+    <!-- Keyboard Key Grid (Row 2 - Spacebar) -->
+    <rect class="line-art" x="215" y="414" width="30" height="16" rx="2" />
+    <rect class="line-art" x="250" y="414" width="30" height="16" rx="2" />
+    <rect class="line-art" x="285" y="414" width="130" height="16" rx="2" /> <!-- Spacebar -->
+    <rect class="line-art" x="420" y="414" width="35" height="16" rx="2" />
+    <rect class="line-art" x="460" y="414" width="35" height="16" rx="2" />
+
+    <!-- Mouse -->
+    <path class="line-art" d="M 545 385 C 545 375, 575 375, 575 385 L 575 425 C 575 435, 545 435, 545 425 Z" />
+    <line x1="560" y1="377" x2="560" y2="397" stroke="#f0ede6" stroke-width="1.5" />
+    <circle cx="560" cy="392" r="2" fill="#b4544a" />
+  </g>
+</svg>
