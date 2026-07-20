@@ -3,18 +3,18 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&amp;display=swap');
       
-      .bg { fill: #0d0b0a; }
+      .bg { fill: #0d1117; }
       
       .name-text {
-        font-family: 'JetBrains Mono', 'DM Mono', 'Courier New', monospace;
+        font-family: 'JetBrains Mono', 'DM Mono', monospace;
         font-weight: 700;
-        font-size: 42px;
-        fill: #f0ede6;
+        font-size: 40px;
+        fill: #e6edf3;
         letter-spacing: 6px;
       }
       
       .cursor {
-        fill: #b4544a;
+        fill: #58a6ff;
         animation: blink 0.8s infinite alternate;
       }
 
@@ -42,33 +42,33 @@
 
       @keyframes moveCursor {
         0% { transform: translateX(0px); }
-        35% { transform: translateX(510px); }
-        85% { transform: translateX(510px); }
+        35% { transform: translateX(490px); }
+        85% { transform: translateX(490px); }
         95%, 100% { transform: translateX(0px); }
       }
     </style>
 
     <clipPath id="text-clip">
-      <rect class="typing-mask" x="140" y="20" width="0" height="80" />
+      <rect class="typing-mask" x="150" y="20" width="0" height="80" />
     </clipPath>
   </defs>
 
   <!-- Background -->
-  <rect class="bg" width="800" height="120" rx="8" />
+  <rect class="bg" width="800" height="120" rx="8" stroke="#30363d" stroke-width="1" />
 
-  <!-- Subtitle line art decoration -->
-  <path d="M 50 20 L 70 20 M 50 25 L 60 25" stroke="#b4544a" stroke-width="2" stroke-linecap="round" />
-  <path d="M 730 100 L 750 100 M 740 105 L 750 105" stroke="#b4544a" stroke-width="2" stroke-linecap="round" />
+  <!-- Pen decorative accents -->
+  <path d="M 40 20 L 60 20 M 40 25 L 50 25" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" />
+  <path d="M 740 100 L 760 100 M 750 105 L 760 105" stroke="#7ee787" stroke-width="2" stroke-linecap="round" />
 
   <!-- Typed text wrapped in clip-path -->
   <g clip-path="url(#text-clip)">
-    <text x="140" y="72" class="name-text">VISHVJEET TANWAR</text>
+    <text x="150" y="72" class="name-text">VISHVJEET TANWAR</text>
   </g>
 
   <!-- Blinking Cursor -->
-  <g transform="translate(140, 36)">
+  <g transform="translate(150, 36)">
     <g class="cursor-group">
-      <rect class="cursor" x="0" y="0" width="18" height="44" rx="2" />
+      <rect class="cursor" x="0" y="0" width="16" height="42" rx="2" />
     </g>
   </g>
 </svg>
