@@ -3,53 +3,51 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&amp;display=swap');
 
-      .bg { fill: #0d0b0a; }
+      .bg { fill: #0d1117; }
 
       .section-header {
         font-family: 'JetBrains Mono', 'DM Mono', monospace;
         font-size: 13px;
         font-weight: 700;
-        fill: #b4544a;
+        fill: #58a6ff;
         letter-spacing: 3px;
       }
 
       .project-card {
-        stroke: #f0ede6;
-        stroke-opacity: 0.35;
+        stroke: #30363d;
         stroke-width: 1.5;
-        fill: #0d0b0a;
+        fill: #161b22;
         rx: 6;
       }
 
       .card-title {
         font-family: 'JetBrains Mono', 'DM Mono', monospace;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 700;
-        fill: #f0ede6;
+        fill: #58a6ff;
       }
 
       .card-desc {
         font-family: 'JetBrains Mono', 'DM Mono', monospace;
         font-size: 12px;
-        fill: #f0ede6;
-        opacity: 0.75;
+        fill: #8b949e;
       }
 
       .tag-text {
         font-family: 'JetBrains Mono', 'DM Mono', monospace;
         font-size: 11px;
-        fill: #b4544a;
+        fill: #7ee787;
       }
 
       .tag-box {
-        stroke: #b4544a;
+        stroke: #7ee787;
         stroke-width: 1;
         fill: none;
         rx: 4;
       }
 
       .pen-line {
-        stroke: #f0ede6;
+        stroke: #58a6ff;
         stroke-width: 1.5;
         stroke-linecap: round;
         stroke-linejoin: round;
@@ -57,7 +55,7 @@
       }
 
       .accent-line {
-        stroke: #b4544a;
+        stroke: #7ee787;
         stroke-width: 1.5;
         stroke-linecap: round;
         fill: none;
@@ -65,73 +63,52 @@
     </style>
   </defs>
 
-  <rect class="bg" width="800" height="360" rx="8" />
+  <rect class="bg" width="800" height="360" rx="8" stroke="#30363d" stroke-width="1" />
 
   <!-- Section Header -->
-  <text x="40" y="35" class="section-header">// FEATURED WORKS &amp; PROJECTS</text>
-  <line x1="310" y1="30" x2="760" y2="30" stroke="#f0ede6" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4 4" />
+  <text x="40" y="35" class="section-header">// FEATURED REPOSITORIES</text>
+  <line x1="260" y1="30" x2="760" y2="30" stroke="#30363d" stroke-width="1" stroke-dasharray="4 4" />
 
-  <!-- PROJECT 1 -->
+  <!-- PROJECT 1: lagline -->
   <g transform="translate(40, 55)">
     <rect class="project-card" width="720" height="85" />
-    <!-- Line art icon/preview box -->
     <rect class="pen-line" x="18" y="18" width="48" height="48" rx="4" />
     <path class="accent-line" d="M 28 32 L 36 44 L 56 26" />
     
-    <text x="82" y="36" class="card-title">hyper-core / distributed-kv</text>
-    <text x="82" y="56" class="card-desc">Low-latency distributed key-value store built in Rust featuring Raft consensus and zero-copy I/O.</text>
+    <text x="82" y="36" class="card-title">vishvjeettanwar1623 / lagline</text>
+    <text x="82" y="56" class="card-desc">High-performance latency analysis &amp; system monitoring tool built with TypeScript.</text>
 
-    <!-- Tags right aligned -->
-    <rect class="tag-box" x="530" y="24" width="55" height="22" />
-    <text x="540" y="39" class="tag-text">Rust</text>
-
-    <rect class="tag-box" x="592" y="24" width="55" height="22" />
-    <text x="602" y="39" class="tag-text">Raft</text>
-
-    <rect class="tag-box" x="654" y="24" width="55" height="22" />
-    <text x="664" y="39" class="tag-text">gRPC</text>
+    <rect class="tag-box" x="590" y="24" width="105" height="22" />
+    <text x="600" y="39" class="tag-text">TypeScript</text>
   </g>
 
-  <!-- PROJECT 2 -->
+  <!-- PROJECT 2: gmailHandler -->
   <g transform="translate(40, 155)">
     <rect class="project-card" width="720" height="85" />
-    <!-- Line art icon/preview box -->
     <rect class="pen-line" x="18" y="18" width="48" height="48" rx="4" />
-    <circle cx="42" cy="42" r="14" class="pen-line" />
-    <line x1="42" y1="28" x2="42" y2="56" class="accent-line" />
+    <rect class="accent-line" x="28" y="32" width="28" height="20" rx="2" />
+    <path class="accent-line" d="M 28 34 L 42 44 L 56 34" />
 
-    <text x="82" y="36" class="card-title">canvas-engine / vector-render</text>
-    <text x="82" y="56" class="card-desc">High-performance 2D SVG &amp; Canvas render pipeline with declarative SMIL keyframe compilers.</text>
+    <text x="82" y="36" class="card-title">vishvjeettanwar1623 / gmailHandler</text>
+    <text x="82" y="56" class="card-desc">Automated email processing engine &amp; API integration service written in TypeScript.</text>
 
-    <!-- Tags right aligned -->
-    <rect class="tag-box" x="500" y="24" width="85" height="22" />
-    <text x="508" y="39" class="tag-text">TypeScript</text>
-
-    <rect class="tag-box" x="592" y="24" width="55" height="22" />
-    <text x="602" y="39" class="tag-text">WebGL</text>
-
-    <rect class="tag-box" x="654" y="24" width="55" height="22" />
-    <text x="666" y="39" class="tag-text">SVG</text>
+    <rect class="tag-box" x="590" y="24" width="105" height="22" />
+    <text x="600" y="39" class="tag-text">TypeScript</text>
   </g>
 
-  <!-- PROJECT 3 -->
+  <!-- PROJECT 3: patchwork & friday -->
   <g transform="translate(40, 255)">
     <rect class="project-card" width="720" height="85" />
-    <!-- Line art icon/preview box -->
     <rect class="pen-line" x="18" y="18" width="48" height="48" rx="4" />
     <path class="accent-line" d="M 26 48 L 36 34 L 46 42 L 56 28" />
 
-    <text x="82" y="36" class="card-title">pulse-ui / minimalist-design-system</text>
-    <text x="82" y="56" class="card-desc">Zero-dependency component architecture prioritizing accessibility, micro-animations, and warm dark modes.</text>
+    <text x="82" y="36" class="card-title">vishvjeettanwar1623 / patchwork &amp; friday</text>
+    <text x="82" y="56" class="card-desc">Developer utility tools, AI assistance scripts, and Web Development suite.</text>
 
-    <!-- Tags right aligned -->
-    <rect class="tag-box" x="515" y="24" width="70" height="22" />
-    <text x="525" y="39" class="tag-text">React</text>
+    <rect class="tag-box" x="520" y="24" width="85" height="22" />
+    <text x="528" y="39" class="tag-text">JavaScript</text>
 
-    <rect class="tag-box" x="592" y="24" width="55" height="22" />
-    <text x="602" y="39" class="tag-text">CSS</text>
-
-    <rect class="tag-box" x="654" y="24" width="55" height="22" />
-    <text x="664" y="39" class="tag-text">A11y</text>
+    <rect class="tag-box" x="615" y="24" width="80" height="22" />
+    <text x="625" y="39" class="tag-text">Python</text>
   </g>
 </svg>
