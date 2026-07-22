@@ -3,21 +3,20 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&amp;display=swap');
 
-      .bg { fill: #0d0b0a; }
+      .bg { fill: #0d1117; }
 
       .section-header {
         font-family: 'JetBrains Mono', 'DM Mono', monospace;
         font-size: 13px;
         font-weight: 700;
-        fill: #b4544a;
+        fill: #58a6ff;
         letter-spacing: 3px;
       }
 
       .hobby-card {
-        stroke: #f0ede6;
-        stroke-opacity: 0.3;
+        stroke: #30363d;
         stroke-width: 1.5;
-        fill: #0d0b0a;
+        fill: #161b22;
         rx: 6;
       }
 
@@ -25,17 +24,17 @@
         font-family: 'JetBrains Mono', 'DM Mono', monospace;
         font-size: 12px;
         font-weight: 700;
-        fill: #f0ede6;
+        fill: #e6edf3;
       }
 
       .hobby-sub {
         font-family: 'JetBrains Mono', 'DM Mono', monospace;
         font-size: 10px;
-        fill: #b4544a;
+        fill: #7ee787;
       }
 
       .line-icon {
-        stroke: #f0ede6;
+        stroke: #58a6ff;
         stroke-width: 1.5;
         stroke-linecap: round;
         stroke-linejoin: round;
@@ -43,7 +42,7 @@
       }
 
       .accent-icon {
-        stroke: #b4544a;
+        stroke: #7ee787;
         stroke-width: 1.5;
         stroke-linecap: round;
         fill: none;
@@ -51,11 +50,11 @@
     </style>
   </defs>
 
-  <rect class="bg" width="800" height="140" rx="8" />
+  <rect class="bg" width="800" height="140" rx="8" stroke="#30363d" stroke-width="1" />
 
   <!-- Section Title -->
   <text x="40" y="30" class="section-header">// BEYOND THE SCREEN &amp; INTERESTS</text>
-  <line x1="330" y1="25" x2="760" y2="25" stroke="#f0ede6" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4 4" />
+  <line x1="330" y1="25" x2="760" y2="25" stroke="#30363d" stroke-width="1" stroke-dasharray="4 4" />
 
   <!-- ITEM 1: Open Source -->
   <g transform="translate(40, 48)">
@@ -79,7 +78,7 @@
   <g transform="translate(410, 48)">
     <rect class="hobby-card" width="165" height="70" />
     <polygon points="32,22 44,42 20,42" class="line-icon" />
-    <circle cx="32" cy="34" r="3" fill="#b4544a" />
+    <circle cx="32" cy="34" r="3" fill="#7ee787" />
     <text x="54" y="32" class="hobby-title">Typography</text>
     <text x="54" y="48" class="hobby-sub">Minimal Design</text>
   </g>
