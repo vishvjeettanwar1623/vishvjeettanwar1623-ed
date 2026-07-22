@@ -94,7 +94,7 @@
 
 | Repository | Stack | Description |
 | :--- | :---: | :--- |
-| ⚡ [**`lagline`**](https://github.com/vishvjeettanwar1623/lagline) | `TypeScript` | High-performance latency analysis & system performance monitoring tool. |
+| ⚡ [**`LagLine`**](https://github.com/vishvjeettanwar1623/lagline) | `TypeScript` | desktop dashboard that scans your local repos and shows their sync status against remote at a glance. |
 | 📧 [**`gmailHandler`**](https://github.com/vishvjeettanwar1623/gmailHandler) | `TypeScript` | Automated Gmail API integration & workflow email processing engine. |
 | 🛠️ [**`patchwork`**](https://github.com/vishvjeettanwar1623/patchwork) | `JavaScript` | Git history synchronization, backdating CLI, & contribution manager. |
 | 🤖 [**`friday`**](https://github.com/vishvjeettanwar1623/friday) | `Python` | Developer automation utilities, assistant tools, & system scripts. |
