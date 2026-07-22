@@ -94,10 +94,10 @@
 
 | Repository | Stack | Description |
 | :--- | :---: | :--- |
-| ⚡ [**`LagLine`**](https://github.com/vishvjeettanwar1623/lagline) | `TypeScript` | desktop dashboard that scans your local repos and shows their sync status against remote at a glance. |
-| 📧 [**`gmailHandler`**](https://github.com/vishvjeettanwar1623/gmailHandler) | `TypeScript` | Automated Gmail API integration & workflow email processing engine. |
-| 🛠️ [**`patchwork`**](https://github.com/vishvjeettanwar1623/patchwork) | `JavaScript` | Git history synchronization, backdating CLI, & contribution manager. |
-| 🤖 [**`friday`**](https://github.com/vishvjeettanwar1623/friday) | `Python` | Developer automation utilities, assistant tools, & system scripts. |
+| ⚡ [**`LagLine`**](https://github.com/vishvjeettanwar1623/lagline) | `TypeScript` |A desktop dashboard that scans your local repos and shows their sync status against remote at a glance.|
+| 📧 [**`Vaxis`**](https://github.com/vishvjeettanwar1623/vaxis) | `JavaScript` |A local-first dev memory engine that indexes your codebase into a semantic graph in an Obsidian vault, giving AI tools persistent project context via MCP. |
+| 🛠️ [**`EgoArena`**](https://github.com/vishvjeettanwar1623/egoArena) | `JavaScript` |A 10-question quiz that turns your personality into a Character Card, then throws it into AI-simulated 1v1 battles on an Elo leaderboard.|
+| 🤖 [**`Hexecute`**](https://github.com/vishvjeettanwar1623/hexecute) | `TypeScript` | Stake tokens, solve a live coding challenge, get AI-graded, and let your fighter settle the score on-chain.|
 | 🌐 [**`web-dev-projects`**](https://github.com/vishvjeettanwar1623/web-dev-projects) | `HTML` / `CSS` | Showcase of modern web development projects & interactive interfaces. |
 
 ---
