@@ -1,6 +1,9 @@
 <div align="center">
-  <!-- Recreated Vengence UI 3D FlipFadeText SVG Animation -->
-  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="assets/name_flip_fade.svg" width="100%" alt="Vishvjeet Singh Tanwar Flip Fade Text" /></a>
+  <!-- Clean Transparent Header Title (Animates Once & Stays Static) -->
+  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=36&amp;pause=1000&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=750&amp;height=65&amp;repeat=false&amp;lines=Vishvjeet+Singh+Tanwar" alt="Vishvjeet Singh Tanwar Header" /></a>
+
+  <!-- Dynamic Subtitle -->
+  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=500&amp;size=18&amp;pause=1000&amp;color=7EE787&amp;center=true&amp;vCenter=true&amp;width=750&amp;lines=Builder+and+Designer;Full+Stack+Developer+-+MERN;Blockchain+Builder" alt="Subtitles" /></a>
 
   <br />
 
@@ -53,12 +56,27 @@
 
 ---
 
-### 🛠️ Tech Stack & Skills
+### 🛠️ Categorized Tech Stack & Skills
 
-<div align="center">
-  <!-- Crisp SkillIcons Grid Render -->
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,mongodb,py,solidity,html,css,tailwind,postgres,redis,docker,git,github,vscode,linux&amp;perline=10" width="100%" alt="Tech Stack Icons Grid" />
-</div>
+<br />
+
+#### 🌐 Core Languages
+<img src="https://skillicons.dev/icons?i=ts,js,py,solidity,html,css" alt="Core Languages" />
+
+<br />
+
+#### ⚛️ Frontend & UI Frameworks
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind" alt="Frontend Frameworks" />
+
+<br />
+
+#### ⚙️ Backend, Databases & APIs
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres,redis" alt="Backend & Databases" />
+
+<br />
+
+#### 🛠️ DevOps, Systems & Developer Tools
+<img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode" alt="DevOps & Tools" />
 
 ---
 
@@ -84,16 +102,16 @@
 
 ---
 
-### 📊 Real-Time Metrics & Activity
+### 📊 Real-Time Metrics & Contribution Snake
 
 <div align="center">
-  <!-- GitHub Streak Badge (100% Reliable & Live) -->
+  <!-- GitHub Streak Badge -->
   <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://github-readme-streak-stats.herokuapp.com/?user=vishvjeettanwar1623&amp;theme=dark&amp;background=0d1117&amp;border=30363d&amp;stroke=58a6ff&amp;ring=58a6ff&amp;fire=f78166" width="100%" alt="GitHub Streak Badge" /></a>
 
   <br /><br />
 
-  <!-- Animated GitHub Contribution Matrix (Clean SVG, No Text Header) -->
-  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="assets/contribution_graph_animated.svg" width="100%" alt="Contribution Matrix" /></a>
+  <!-- Animated Contribution Snake Eating Matrix -->
+  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="assets/github_snake.svg" width="100%" alt="Contribution Arcade Snake" /></a>
 </div>
 
 ---
