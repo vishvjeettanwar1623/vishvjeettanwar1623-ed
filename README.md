@@ -58,29 +58,29 @@
 ### 🛠️ Tech Stack & Skills
 
 <div align="center">
-  <!-- SkillIcons Grid (Direct & 100% Reliable Render) -->
+  <!-- Crisp SkillIcons Grid Render -->
   <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,mongodb,py,solidity,html,css,tailwind,postgres,redis,docker,git,github,vscode,linux&amp;perline=10" width="100%" alt="Tech Stack Icons Grid" />
 </div>
 
 ---
 
-### 🏆 GitHub Badges & Achievements
+### 🏆 GitHub Achievements & Badges
 
 <div align="center">
-  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/GitHub-Pull%20Shark-7ee787?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Pull Shark Badge" />
+  <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer">
+    <img src="https://github.githubassets.com/assets/yolo-default-2362309e57b8.png" width="96" height="96" alt="YOLO Achievement Badge" />
   </a>
-  &nbsp;
-  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/GitHub-Pair%20Extraordinaire-58a6ff?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Pair Extraordinaire Badge" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer">
+    <img src="https://github.githubassets.com/assets/quickdraw-default-39c6e4fd8d7a.png" width="96" height="96" alt="Quickdraw Achievement Badge" />
   </a>
-  &nbsp;
-  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/GitHub-Quickdraw-a371f7?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Quickdraw Badge" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer">
+    <img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="96" height="96" alt="Pull Shark Achievement Badge" />
   </a>
-  &nbsp;
-  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/GitHub-Developer%20Program%20Member-f78166?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Developer Program Badge" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer">
+    <img src="https://github.githubassets.com/assets/pair-extraordinaire-default-e77638ad5c80.png" width="96" height="96" alt="Pair Extraordinaire Achievement Badge" />
   </a>
 </div>
 
