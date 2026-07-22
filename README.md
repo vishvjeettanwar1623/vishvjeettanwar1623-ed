@@ -56,7 +56,7 @@
 
 ---
 
-### <> Tech Stack & Skills </>
+### 🛠️ Categorized Tech Stack & Skills
 
 <br />
 
@@ -71,7 +71,7 @@
 <br />
 
 #### ⚙️ Backend, Databases & APIs
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" alt="Backend & Databases" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres,redis" alt="Backend & Databases" />
 
 <br />
 
@@ -80,7 +80,7 @@
 
 ---
 
-### 🏆 Badges
+### 🏆 GitHub Achievements & Badges
 
 <div align="center">
   <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="96" height="96" alt="YOLO Achievement Badge" /></a>
@@ -94,15 +94,15 @@
 
 | Repository | Stack | Description |
 | :--- | :---: | :--- |
-| ⚡ [**`LagLine`**](https://github.com/vishvjeettanwar1623/lagline) | `TypeScript` |A desktop dashboard that scans your local repos and shows their sync status against remote at a glance.|
-| 📧 [**`Vaxis`**](https://github.com/vishvjeettanwar1623/vaxis) | `JavaScript` |A local-first dev memory engine that indexes your codebase into a semantic graph in an Obsidian vault, giving AI tools persistent project context via MCP. |
-| 🛠️ [**`EgoArena`**](https://github.com/vishvjeettanwar1623/egoArena) | `JavaScript` |A 10-question quiz that turns your personality into a Character Card, then throws it into AI-simulated 1v1 battles on an Elo leaderboard.|
-| 🤖 [**`Hexecute`**](https://github.com/vishvjeettanwar1623/hexecute) | `TypeScript` | Stake tokens, solve a live coding challenge, get AI-graded, and let your fighter settle the score on-chain.|
-| 🌐 [**`web-dev-projects`**](https://github.com/vishvjeettanwar1623/web-dev-projects) | `HTML` / `CSS` | Showcase of modern web development projects & interactive interfaces. |
+| ⚡ [**`LagLine`**](https://github.com/vishvjeettanwar1623/lagline) | `TypeScript` | A desktop dashboard that scans your local repos and shows their sync status against remote at a glance. |
+| 📧 [**`Vaxis`**](https://github.com/vishvjeettanwar1623/vaxis) | `JavaScript` | A local-first dev memory engine that indexes your codebase into a semantic graph in an Obsidian vault, giving AI tools persistent project context via MCP. |
+| 🛠️ [**`EgoArena`**](https://github.com/vishvjeettanwar1623/egoArena) | `JavaScript` | A 10-question quiz that turns your personality into a Character Card, then throws it into AI-simulated 1v1 battles on an Elo leaderboard. |
+| 🤖 [**`Hexecute`**](https://github.com/vishvjeettanwar1623/hexecute) | `TypeScript` | Stake tokens, solve a live coding challenge, get AI-graded, and let your fighter settle the score on-chain. |
+| 🌐 [**`Data-Roots`**](https://github.com/vishvjeettanwar1623/Data-Roots) | `JavaScript` | Decentralized data sharing on the blockchain — upload to IPFS, register on-chain, and grant or revoke access with fine-grained control. |
 
 ---
 
-### 📊 Real-Time Metrics & Contribution Snake
+### 📊 Real-Time Metrics & Activity
 
 <div align="center">
   <!-- GitHub Streak Badge -->
@@ -110,8 +110,8 @@
 
   <br /><br />
 
-  <!-- Animated Contribution Snake Eating Matrix -->
-  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="assets/github_snake.svg" width="100%" alt="Contribution Arcade Snake" /></a>
+  <!-- Contribution Matrix with animate__zoomIn Animation -->
+  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="assets/contribution_zoomin.svg" width="100%" alt="Contribution Matrix" /></a>
 </div>
 
 ---
