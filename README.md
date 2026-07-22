@@ -75,13 +75,10 @@
 
 ---
 
-### 📊 GitHub Profile Badges & Real-Time Metrics
-
 <div align="center">
-  <!-- GitHub Profile Summary Badges -->
+  <!-- Exact Real GitHub Profile Contribution Matrix with 10-Second Looping Diagonal Animation -->
   <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vishvjeettanwar1623&amp;theme=2077" width="49%" alt="GitHub Profile Details Badge" />
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=vishvjeettanwar1623&amp;theme=2077" width="49%" alt="Repos Per Language Badge" />
+    <img src="assets/contribution_graph_animated.svg" width="100%" alt="Contribution Matrix" />
   </a>
 
   <br /><br />
@@ -89,12 +86,5 @@
   <!-- GitHub Streak Badge -->
   <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=vishvjeettanwar1623&amp;theme=dark&amp;background=0d1117&amp;border=30363d&amp;stroke=58a6ff&amp;ring=58a6ff&amp;fire=f78166" width="100%" alt="GitHub Streak Badge" />
-  </a>
-
-  <br /><br />
-
-  <!-- Diagonal Animated GitHub Contribution Matrix -->
-  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer">
-    <img src="assets/contribution_graph_animated.svg" width="100%" alt="GitHub Contribution Matrix for Vishvjeet Singh Tanwar" />
   </a>
 </div>
