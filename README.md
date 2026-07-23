@@ -79,7 +79,7 @@
 
 ---
 
-### 🚀 Featured Repositories
+### <img src="https://api.iconify.design/ion:bookmark-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Featured Repositories
 
 | Repository | Stack | Description |
 | :--- | :---: | :--- |
