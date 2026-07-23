@@ -69,7 +69,7 @@
 
 ---
 
-### 🏆 Badges
+### <img src="https://api.iconify.design/ion:trophy-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Badges
 
 <div align="center">
   <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="96" height="96" alt="YOLO Achievement Badge" /></a>
