@@ -46,7 +46,7 @@
   EDITOR    : VS Code / Antigravity
   TERMINAL  : Windows Terminal / Git Bash
   TOOLING   : Node.js (pnpm/bun), Git, Docker, Python
-  WEB3      : Solidity, Hardhat, Ethers.js, Anvil
+  WEB3      : Solidity, Hardhat, Ethers.js
   DEPLOY    : Vercel, Netlify, Docker Containers
 ================================================================================
 ```
