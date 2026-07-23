@@ -53,7 +53,7 @@
 
 ---
 
-### <img src="https://api.iconify.design/ion:code-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Tech Stack & Skills <img src="https://api.iconify.design/ion:code-slash-outline.svg?color=%23ffffff" width="24" height="24" align="center" />
+### <img src="https://api.iconify.design/ion:code-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Tech Stack & Skills
 
 #### 🌐 Core Languages
 <img src="https://skillicons.dev/icons?i=ts,js,py,solidity,html,css" alt="Core Languages" />
@@ -75,11 +75,6 @@
   <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="96" height="96" alt="YOLO Achievement Badge" /></a>
   <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="96" height="96" alt="Quickdraw Achievement Badge" /></a>
   <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="96" height="96" alt="Pull Shark Achievement Badge" /></a>
-
-  <br /><br />
-
-  <!-- GitHub Profile Trophies -->
-  <img src="https://github-profile-trophies.vercel.app/?username=vishvjeettanwar1623&amp;theme=darkhub&amp;no-frame=true&amp;no-bg=true&amp;margin-w=4" width="100%" alt="GitHub Profile Trophies" />
 </div>
 
 ---
