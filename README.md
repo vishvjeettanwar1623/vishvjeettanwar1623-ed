@@ -13,7 +13,7 @@
 
 <br />
 
----
+
 
 ### <img src="https://api.iconify.design/ion:laptop-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> About Me
 
@@ -35,23 +35,23 @@
 }
 ```
 
----
+
 
 ### <img src="https://api.iconify.design/ion:code-slash-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Dev Setup & Environment
 
 ```zsh
 ⚡ vishvjeet@dev:~$ neofetch --dev-setup
-================================================================================
-  OS        : Windows / Linux 
-  EDITOR    : VS Code / Antigravity
-  TERMINAL  : Windows Terminal / Git Bash
-  TOOLING   : Node.js (pnpm/bun), Git, Docker, Python
-  WEB3      : Solidity, Hardhat, Ethers.js
-  DEPLOY    : Vercel, Netlify, Docker Containers
-================================================================================
+{
+  OS        : Windows / Linux; 
+  EDITOR    : VS Code / Antigravity;
+  TERMINAL  : Windows Terminal / Git Bash;
+  TOOLING   : Node.js (pnpm/bun), Git, Docker, Python;
+  WEB3      : Solidity, Hardhat, Ethers.js;
+  DEPLOY    : Vercel, Netlify, Docker Containers;
+}
 ```
 
----
+
 
 ### <img src="https://api.iconify.design/ion:code-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Tech Stack & Skills <img src="https://api.iconify.design/ion:code-slash-outline.svg?color=%23ffffff" width="24" height="24" align="center" />
 
@@ -67,7 +67,7 @@
 #### 🛠️ DevOps, Systems & Developer Tools
 <img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode" alt="DevOps & Tools" />
 
----
+
 
 ### <img src="https://api.iconify.design/ion:trophy-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Badges
 
@@ -77,7 +77,7 @@
   <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="96" height="96" alt="Pull Shark Achievement Badge" /></a>
 </div>
 
----
+
 
 ### <img src="https://api.iconify.design/ion:bookmark-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Featured Repositories
 
@@ -89,7 +89,7 @@
 | [**`Hexecute`**](https://github.com/vishvjeettanwar1623/hexecute) | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" /> | Stake tokens, solve a live coding challenge, get AI-graded, and let your fighter settle the score on-chain. |
 | [**`Data-Roots`**](https://github.com/vishvjeettanwar1623/Data-Roots) | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/IPFS-65C2CB?style=flat-square&amp;logo=ipfs&amp;logoColor=white" alt="IPFS" /> | Decentralized data sharing on the blockchain — upload to IPFS, register on-chain, and grant or revoke access with fine-grained control. |
 
----
+
 
 ### <img src="https://api.iconify.design/ion:analytics-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Real-Time Metrics & Activity
 
@@ -98,7 +98,7 @@
   <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://github-readme-streak-stats.herokuapp.com/?user=vishvjeettanwar1623&amp;theme=dark&amp;background=0d1117&amp;border=30363d&amp;stroke=58a6ff&amp;ring=58a6ff&amp;fire=f78166" width="100%" alt="GitHub Streak Badge" /></a>
 </div>
 
----
+
 
 ### <img src="https://api.iconify.design/ion:bag-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Connect
 
